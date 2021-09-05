@@ -1,0 +1,43 @@
+.main-site{
+    height: 92.6%;
+    width: 83.33%;
+    position: absolute;
+    background-image: url("./foof.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -26px;
+    margin-left: -29px; 
+}
+.app-description{
+    font-weight: bold;
+    padding: 20px 50px 0px 260px;
+    text-transform: uppercase;
+}
+.head-main-site{
+    padding-left: 180px;
+}
+@media screen and (max-width: 1500px) and (min-width: 800px) {
+    .app-description{
+        padding: 20px -180px 0px 220px !important;
+    }
+    .button-main-site{
+        margin-left: -1px !important;
+    }
+    .head-main-site{
+        font-size: 40px !important;
+    }
+}
+@media screen and (max-width: 799px) {
+    .app-description{
+        padding: 20px 0px 0px 3px !important;
+        font-size: 14px;
+    }
+    .button-main-site{
+        margin-left: -1px !important;
+    }
+    .head-main-site{
+        font-size: 30px !important;
+    }
+}

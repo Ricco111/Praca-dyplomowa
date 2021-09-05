@@ -1,0 +1,98 @@
+body, html {
+    height: 100%;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #c59d5f;
+}
+.MuiList-root.MuiMenu-list.MuiList-padding{
+    color: #c59d5f !important;
+    background-color: black !important;
+}
+li{
+    color: #c59d5f !important;
+}
+/* Responsywny img */
+.main-look{
+    height: 92.6%;
+    width: 100%;
+    position: absolute;
+    background-image: url("./restaurant1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -285px;
+    margin-top: -60px;
+}
+/* Usunięcie paddingu z klikalnego menu */
+.MuiList-padding {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+span:hover {
+   color: #c59d5f;
+  }
+/* Zmiana koloru footera na czarny */
+#root > div > header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.Footer-appBar-140.MuiAppBar-colorPrimary.mui-fixed.MuiPaper-elevation4{
+   background-color: black !important;
+}
+/* Wygląd strony głównej dla niezalogowanego użytkownika */
+.headline_first{
+    text-align: center;
+    position: relative;
+    font: 1.1em/1.6 "Arial", sans-serif;
+    font-family: serif;
+    color: #c59d5f;
+    font-size: 103px;
+    line-height: 1.154;
+    margin-bottom: -38px;
+}
+.headline_second{
+    text-align: center;
+    font: 1.1em/1.6;
+    font-family: "Noto Sans", serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 0.192em;
+    padding: 0;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+/* Responsywne litery na stronie głównej */
+@media screen and (max-width: 519px) {
+    .headline_first{
+        font-size: 60px;
+        padding-top: 150px;
+    }
+    .headline_second{
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 368px) {
+    .headline_first{
+        font-size: 40px;
+        padding-top: 150px;
+    }
+    .headline_second{
+        font-size: 1.85rem;
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 293px) {
+    .headline_first{
+        font-size: 10px;
+        padding-top: 150px;
+    }
+    .headline_second{
+        font-size: 1rem;
+        padding-top: 40px;
+    }
+}
